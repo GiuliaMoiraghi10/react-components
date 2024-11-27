@@ -1,5 +1,6 @@
 import image from '../../../assets/sailor.jpg'
 import Button from '../card/Button'
+import style from './Card.module.css'
 
 export default function Card() {
 
