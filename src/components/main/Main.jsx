@@ -1,4 +1,4 @@
-import card from './card/Card.jsx'
+import Card from './card/Card.jsx'
 
 export default function Main() {
 
@@ -9,7 +9,7 @@ export default function Main() {
                 <div className="container">
                     <div className="raw">
                         <div className="col-12">
-                            <div>{card}</div>
+                            <Card />
                         </div>
                     </div>
                 </div>

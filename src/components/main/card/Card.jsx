@@ -1,5 +1,5 @@
 import image from '../../../assets/sailor.jpg'
-import button from '../card/Button'
+import Button from '../card/Button'
 
 export default function Card() {
 
@@ -11,7 +11,7 @@ export default function Card() {
             <div className='card-body'>
                 <h3>Sailor Moon</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, saepe.</p>
-                <button>{button}</button>
+                <Button />
             </div>
         </div>
 
