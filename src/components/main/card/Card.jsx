@@ -5,13 +5,13 @@ import style from './Card.module.css'
 export default function Card() {
 
     return (
-        <div className="card">
-            <div className='card-image'>
+        <div className={style.card}>
+            <div className={style.card_image}>
                 <img className="img" src={image} alt="" />
             </div>
-            <div className='card-body'>
-                <h3>Sailor Moon</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, saepe.</p>
+            <div className={style.card_body}>
+                <h3 className={style.title_card}>Sailor Moon</h3>
+                <p className={style.description_card}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, saepe.</p>
                 <Button />
             </div>
         </div>
