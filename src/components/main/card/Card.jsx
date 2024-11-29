@@ -11,7 +11,7 @@ export default function Card() {
             </div>
             <div className={style.card_body}>
                 <h3 className={style.title_card}>Sailor Moon</h3>
-                <p className={style.description_card}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, saepe.</p>
+                <p className={style.description_card}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto officiis possimus animi ipsa blanditiis. Eaque consequuntur culpa ratione debitis vel.</p>
                 <Button />
             </div>
         </div>
